@@ -1,0 +1,17 @@
+@media only screen and (min-width: 992px) {
+  .mobile-button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile-button {
+    display: block;
+  }
+
+  .button-group {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.c8aa810e.css.map */

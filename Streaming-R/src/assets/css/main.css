@@ -1,0 +1,162 @@
+*{
+      font-family: 'Montserrat', sans-serif;
+}
+
+body{
+      background-color: blueviolet;
+}
+
+.navbar{
+      z-index: 1;
+}
+
+.background-image{
+      position: relative;
+      width: 100%;
+      height: 750px;
+      background-image: url(../img/1181582.jpg);
+      background-position: center;
+      background-size:cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+}
+
+.container{
+      padding-bottom: 3rem;
+}
+
+.list-item{
+      list-style: none;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 0;
+      transition: 0.3s;
+}
+
+.list-item:hover{
+      opacity: 0.5;
+}
+
+
+.background-image::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.0.5);
+      z-index: 0;
+     
+}
+
+.banner-title{
+      color: #fff;
+      font-weight: 700;
+      font-size: 78px;
+      z-index: 1;
+}
+
+.banner-desc{
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 1px;
+      z-index: 1;
+}
+
+.banner-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 3rem;
+
+}
+
+.btn{
+      z-index: 1;
+}
+
+.image-frame{
+      overflow: hidden;
+}
+
+img{
+      width: 100%;
+}
+
+.bg-purple{
+      background-color:#35323a ;
+}
+
+.title{
+      text-align: center;
+      color: #fafafa;
+      font-weight: 700;
+      padding: 2rem 0;
+      letter-spacing: 2px;
+      font-size: 3rem;
+}
+
+.streaming-title{
+      color: #fff;
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding: 1rem 0;
+}
+
+.genre{
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 2px; 
+}
+
+.card-wrapper{
+      border: 1px solid #fff;
+      border-radius: 10px;
+      margin: 0.5rem;
+      padding: 1rem;
+      transition: 0.3s;
+      cursor: pointer;
+}
+
+.card-wrapper:hover{
+      background-color: #29282c;
+}
+
+.big-title{
+      display: flex;
+      align-items: inherit;
+}
+
+.view-group{
+      display: flex;
+      justify-content: space-between;
+}
+
+.view-group a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 2px;
+      transition: 0.3s;
+      font-weight: bold;
+}
+
+.view-group a:hover{
+      color: #fff;
+}
+
+a{
+      text-decoration: none !important;
+}
+
+h1.navbar-brand{
+      font-size: 40px;
+      font-weight: 700;
+      padding: 1rem 0;
+}
+
